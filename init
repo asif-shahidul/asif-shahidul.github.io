@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] | Equipment Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; }
+        .card { background-color: #1e293b; border: 1px solid #334155; }
+        .accent { color: #38bdf8; }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <header class="max-w-5xl mx-auto py-20 px-6">
+        <h1 class="text-5xl font-bold mb-4">I build <span class="accent">systems</span> for atoms.</h1>
+        <p class="text-xl text-slate-400 max-w-2xl">
+            PhD Materials Scientist & Equipment Engineer. I specialize in designing custom hardware, 
+            maintaining complex vacuum systems, and automating the future of semiconductors.
+        </p>
+        <div class="mt-8 flex gap-4">
+            <a href="mailto:your-email@example.com" class="bg-sky-600 hover:bg-sky-500 px-6 py-3 rounded-md font-semibold transition">Contact Me</a>
+            <a href="#projects" class="border border-slate-600 hover:bg-slate-800 px-6 py-3 rounded-md font-semibold transition">View Builds</a>
+        </div>
+    </header>
+
+    <main id="projects" class="max-w-5xl mx-auto py-10 px-6">
+        <h2 class="text-2xl font-bold mb-8 flex items-center">
+            <span class="mr-2">/</span> Selected Engineering Projects
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="card p-6 rounded-lg">
+                <div class="h-48 bg-slate-700 rounded mb-4 flex items-center justify-center text-slate-500 text-sm">
+                    [Place Autodesk Inventor Render Here]
+                </div>
+                <h3 class="text-xl font-bold mb-2">NV-Center Sensing Platform</h3>
+                <p class="text-slate-400 text-sm mb-4">Built a custom high-vacuum optical cryostat mount. Integrated microwave delivery and pulse sequence automation.</p>
+                <div class="flex gap-2 flex-wrap">
+                    <span class="text-xs bg-slate-900 px-2 py-1 rounded">Autodesk Inventor</span>
+                    <span class="text-xs bg-slate-900 px-2 py-1 rounded">Vacuum Systems</span>
+                    <span class="text-xs bg-slate-900 px-2 py-1 rounded">Python</span>
+                </div>
+            </div>
+
+            <div class="card p-6 rounded-lg">
+                <div class="h-48 bg-slate-700 rounded mb-4 flex items-center justify-center text-slate-500 text-sm">
+                    [Place Lab Photo or SPC Chart Here]
+                </div>
+                <h3 class="text-xl font-bold mb-2">Cleanroom Tool Optimization</h3>
+                <p class="text-slate-400 text-sm mb-4">Reduced downtime of etching systems by 40% through custom redesigned cooling manifolds and helium leak detection.</p>
+                <div class="flex gap-2 flex-wrap">
+                    <span class="text-xs bg-slate-900 px-2 py-1 rounded">Helium Leak Detection</span>
+                    <span class="text-xs bg-slate-900 px-2 py-1 rounded">SPC</span>
+                    <span class="text-xs bg-slate-900 px-2 py-1 rounded">SOP Dev</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="max-w-5xl mx-auto py-20 px-6 border-t border-slate-800">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="font-bold text-sky-400 mb-2">Mechanical</h4>
+                <ul class="text-sm text-slate-400 space-y-1">
+                    <li>Autodesk Inventor</li>
+                    <li>3D Printing / Prototyping</li>
+                    <li>Opto-mechanics</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-sky-400 mb-2">Systems</h4>
+                <ul class="text-sm text-slate-400 space-y-1">
+                    <li>High Vacuum (HV/UHV)</li>
+                    <li>Lithography & Etch</li>
+                    <li>Cryogenics</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-sky-400 mb-2">Computation</h4>
+                <ul class="text-sm text-slate-400 space-y-1">
+                    <li>Python (Automation)</li>
+                    <li>MATLAB / Octave</li>
+                    <li>Data Analysis</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-sky-400 mb-2">Metrology</h4>
+                <ul class="text-sm text-slate-400 space-y-1">
+                    <li>SEM & AFM</li>
+                    <li>Ellipsometry</li>
+                    <li>Spectroscopy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
